@@ -1,0 +1,36 @@
+    def criar_apresentacao(self, filename):
+        prs = Presentation()
+        
+        # Slide 1 - Quem Sou Eu
+        self.criar_slide_apresentacao(prs)
+        
+        # Slide 2 - Gestão de Spends
+        self.criar_slide_gestao(prs)
+        
+        # Slide 3 - Destaques
+        self.criar_slide_destaques(prs)
+        
+        prs.save(filename)
+        print(f"Apresentação salva como: {filename}")
+    def criar_slide_apresentacao(self, prs):
+        slide = prs.slides.add_slide(prs.slide_layouts[6])
+        # ... (implementação completa)
+        # [Resto do código como fornecido anteriormente]
+# Configuração executável
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Criar apresentação Continental')
+    parser.add_argument('--nome', required=True, help='Seu nome completo')
+    parser.add_argument('--cargo', required=True, help='Seu cargo')
+    parser.add_argument('--output', default='apresentacao_continental.pptx', help='Arquivo de saída')
+    
+    args = parser.parse_args()
+    
+    apresentacao = ApresentacaoContinental(
+        nome=args.nome,
+        cargo=args.cargo,
+        tempo_empresa="5 anos",
+        experiencia="10+ anos em indústria automotiva",
+        formacao="Engenharia Mecânica - USP"
+    )
+    
+    apresentacao.criar_apresentacao(args.output)
