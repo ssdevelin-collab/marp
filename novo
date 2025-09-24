@@ -1,0 +1,53 @@
+---
+marp: true
+theme: default
+style: |
+  section { background-color: #003399; color: white; font-family: 'Arial', sans-serif; }
+  h1 { color: white; font-size: 2.5em; text-align: center; }
+  h2 { color: #FFD700; font-size: 1.8em; }
+  .slide-content { font-size: 1.2em; line-height: 1.6; }
+  .highlight { color: #FFD700; font-weight: bold; }
+---
+
+<!-- _class: lead -->
+# 🚗 APRESENTAÇÃO CORPORATIVA
+## CONTINENTAL
+
+---
+
+# 👤 QUEM SOU EU
+
+**João Silva**  
+Gerente Sênior de Desenvolvimento de Produtos
+
+**Experiência Profissional**  
+- 5 anos na Continental  
+- 10+ anos em indústria automotiva  
+- Especialização em Mobilidade Sustentável e Inovação
+
+**Formação Acadêmica**  
+- Engenharia Mecânica - USP  
+- Certificação em Gestão de Projetos  
+- MBA em Inovação Automotiva
+
+---
+
+# 💰 GESTÃO ESTRATÉGICA & SPENDS
+
+**Orçamento Gerido:** €50 MILHÕES/ANO
+
+**Distribuição de Recursos:**  
+- P&D 40%  
+- Produção 30%  
+- Marketing 20%  
+- Sustentabilidade 10%
+
+![Gráfico de Pizza](https://via.placeholder.com/400x400.png?text=Gráfico+de+Pizza)
+
+---
+
+# 📊 CONCLUSÃO
+
+- Estratégias focadas em inovação e sustentabilidade  
+- Distribuição eficiente do orçamento  
+- Compromisso com resultados e crescimento contínuo
